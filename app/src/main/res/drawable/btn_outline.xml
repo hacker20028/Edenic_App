@@ -1,0 +1,23 @@
+<!-- res/drawable/btn_outline.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Transparent fill -->
+    <solid android:color="@android:color/transparent"/>
+
+    <!-- White border -->
+    <stroke
+        android:width="1.5dp"
+        android:color="@color/white"
+        android:alpha="0.8"/>
+
+    <!-- Rounded corners (matches your dialog corners) -->
+    <corners android:radius="24dp"/>
+
+    <!-- Padding to prevent text from touching edges -->
+    <padding
+        android:left="16dp"
+        android:top="12dp"
+        android:right="16dp"
+        android:bottom="12dp"/>
+</shape>

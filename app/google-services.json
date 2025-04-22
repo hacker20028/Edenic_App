@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "808310207306",
+    "project_id": "edenic-app",
+    "storage_bucket": "edenic-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808310207306:android:76e0bf663c1538251847b3",
+        "android_client_info": {
+          "package_name": "com.aryan.edenic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808310207306-oo4feu1uecmjap5p1c1rm7kuhp1cip0h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aryan.edenic",
+            "certificate_hash": "3bc42a16a641c3fbfbe2da08cf4087dfd9bca5a2"
+          }
+        },
+        {
+          "client_id": "808310207306-k7nmh1d6djh398gfj52fhvdp7j35sibq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3V312wq6llCw9c14TAIpkkxWOJdh_rVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808310207306-k7nmh1d6djh398gfj52fhvdp7j35sibq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

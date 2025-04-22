@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="google_blue">#4285F4</color> <!-- Google blue -->
+    <color name="background_color">#FFFFFF</color> <!-- White background -->
+    <color name="primary_text_color">#000000</color> <!-- Black for primary text -->
+    <color name="secondary_text_color">#757575</color> <!-- Gray for secondary text -->
+    <color name="tertiary_text_color">#9E9E9E</color> <!-- Light gray for footer text -->
+    <color name="google_yellow">#EBB20C</color> <!-- Google Yellow -->
+    <color name="gray">#757575</color>
+
+    <color name="background_dark">#FF121212</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="primary_blue">#FF4285F4</color>
+    <color name="nav_background">#FF1E1E1E</color>
+    <color name="red">#E90C0C</color>
+    <color name="green">#6BE913</color>
+
+    <color name="profit_green">#FF4CAF50</color>
+    <color name="loss_red">#FFF44336</color>
+    <color name="neutral_gray">#FF9E9E9E</color>
+    <color name="user_highlight">#33FFFFFF</color>
+</resources>

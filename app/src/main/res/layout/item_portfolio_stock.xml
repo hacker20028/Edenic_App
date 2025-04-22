@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="12dp"
+    android:background="#1A1A1A">
+
+    <!-- Stock Symbol and Quantity -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentStart="true">
+
+        <!-- Stock Symbol -->
+        <TextView
+            android:id="@+id/stock_symbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ARIES"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <!-- Quantity Row -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+
+            <TextView
+                android:id="@+id/quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 X"
+                android:textColor="#80FFFFFF"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" AVG "
+                android:textColor="#80FFFFFF"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/avg_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹299.22"
+                android:textColor="#80FFFFFF"
+                android:textSize="14sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Gain/Loss Values -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentEnd="true"
+        android:gravity="end">
+
+        <!-- Change Amount -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/change_prefix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/red"
+                android:textSize="16sp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/change_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-₹391.20"
+                android:textColor="@color/red"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/change_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" (-13.07%)"
+                android:textColor="@color/red"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+        <!-- LTP Row -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LTP "
+                android:textColor="#80FFFFFF"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/ltp_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹260.10"
+                android:textColor="#80FFFFFF"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/ltp_change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" (-3.43%)"
+                android:textColor="@color/red"
+                android:textSize="14sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#1AFFFFFF"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

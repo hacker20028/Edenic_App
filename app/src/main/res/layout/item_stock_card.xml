@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="140dp"
+    android:layout_height="150dp"
+    android:layout_margin="8dp"
+    android:foreground="?attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:background="@drawable/stock_card_bg"
+    android:gravity="center"
+    android:padding="12dp">
+
+    <!-- If I don't wanna go with Gradient cards then change above to:
+    android:background="@drawable/stock_card_bg" instead of
+     "@android:color/transparent"-->
+
+    <ImageView
+        android:id="@+id/stock_logo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/default_img_holder" />
+
+    <TextView
+        android:id="@+id/stock_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="AAPL"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/stock_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$364.11"
+        android:textColor="@color/white_70"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/stock_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="+1.25 (0.69%)"
+        android:textSize="12sp" />
+</LinearLayout>
