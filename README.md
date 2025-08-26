@@ -73,6 +73,7 @@ Edenic is an Android application that gamifies the stock market trading experien
 - Icons and graphics from various open-source repositories
 - Thanks to all contributors who have helped shape this project
 
-## Co-author 
-@hrutujaX
+## Co-author  
+[@Hrutuja](https://github.com/hrutujaX)
+
 
